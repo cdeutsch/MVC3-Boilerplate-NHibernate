@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = Web.SiteHelper.GetFullPageTitle("Home");
+}
+
+<div class="container"> 
+        
+    @if (HttpContext.Current.User.Identity.IsAuthenticated) { 
+        
+        <h2>Welcome!</h2>
+        
+        <p>
+            This is the home page.
+        </p>
+        
+    } else {
+
+        <h2>Signup</h2>
+
+        <h4 class="signUp">@Html.ActionLink("Login or Signup to get started.","login","session")</h4>
+
+    }
+</div>
