@@ -16,7 +16,6 @@ namespace Web.Common
 
     public static class CacheHelper
     {
-        public const string SessionIdKey = "SessionId";
         public const string UserFriendlyNameKey = "FriendlyName";
 
         /// <summary>
