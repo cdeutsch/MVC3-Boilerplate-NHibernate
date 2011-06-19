@@ -27,6 +27,9 @@ https://github.com/crdeutsch/MVC3-Boilerplate
 
 ## History ##
 
+### 6/19/2011 ###
+* Added null check to CacheHelper.
+
 ### 6/1/2011 ###
 * Modified MVC Boilerplate to use NHibernate instead of Entity Framework
 

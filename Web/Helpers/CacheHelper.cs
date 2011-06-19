@@ -44,7 +44,15 @@ namespace Web.Common
                     if (FormsAuthService.IsAuthenticated())
                     {
                         var userRepository = new UserRepository(MvcApplication.SessionFactory.OpenSession());
-                        return userRepository.GetUser(FormsAuthService.GetCurrentUserId()).Username;
+                        var user = userRepository.GetUser(FormsAuthService.GetCurrentUserName());
+                        if (user != null)
+                        {
+                            return user.Username;
+                        }
+                        else
+                        {
+                            return "";
+                        }
                     }
                     else
                     {
