@@ -232,6 +232,7 @@
     <Compile Include="Infrastructure\FormsAuthenticationService\FormsAuthenticationService.cs" />
     <Compile Include="Infrastructure\FormsAuthenticationService\IFormsAuthenticationService.cs" />
     <Compile Include="Repositories\Config\CascadeConvention.cs" />
+    <Compile Include="Repositories\Config\CustomForeignKeyConvention.cs" />
     <Compile Include="Repositories\Config\RequiredConvention.cs" />
     <Compile Include="Repositories\Config\SqlCEDbHelper.cs" />
     <Compile Include="Repositories\Config\StringLengthConvention.cs" />
@@ -767,7 +768,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>5681</DevelopmentServerPort>
+          <DevelopmentServerPort>5737</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

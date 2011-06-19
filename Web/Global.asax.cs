@@ -134,6 +134,7 @@ namespace Web
                 .Conventions.Add<CascadeConvention>()
                 .Conventions.Add<TableNameConvention>()
                 .Conventions.Add<RequiredConvention>()
+                .Conventions.Add<CustomForeignKeyConvention>()
                 .Conventions.Add<StringLengthConvention>();
         }
 
