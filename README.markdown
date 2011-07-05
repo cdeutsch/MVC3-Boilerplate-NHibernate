@@ -27,6 +27,9 @@ https://github.com/crdeutsch/MVC3-Boilerplate
 
 ## History ##
 
+### 7/05/2011 ###
+* Enabled Elmah error filtering by default.
+
 ### 6/19/2011 ###
 * Added null check to CacheHelper.
 * Added NHibernate CustomForeignKeyConvention
