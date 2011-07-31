@@ -27,6 +27,9 @@ https://github.com/crdeutsch/MVC3-Boilerplate
 
 ## History ##
 
+### 7/31/2011 ###
+* Updated Flash Message helpers to work without javascript.
+
 ### 7/05/2011 ###
 * Enabled Elmah error filtering by default.
 
