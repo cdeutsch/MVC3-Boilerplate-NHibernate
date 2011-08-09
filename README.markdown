@@ -27,6 +27,9 @@ https://github.com/crdeutsch/MVC3-Boilerplate
 
 ## History ##
 
+### 8/9/2011 ###
+* Added $.cancelAjaxIfRunning function.
+
 ### 7/31/2011 ###
 * Updated Flash Message helpers to work without javascript.
 * Added Z-index to flash message.
