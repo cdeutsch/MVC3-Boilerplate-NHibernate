@@ -1,5 +1,13 @@
 # ASP.NET MVC3 Boilerplate - NHibernate Edition #
 
+##NOTICE 8/11/2011##
+
+### Until I learn how to use NHibernate in MVC better I will only be updating the Entity Framework version ###
+
+https://github.com/crdeutsch/MVC3-Boilerplate
+
+## About ##
+
 A collection of addons and configurations I use in most projects. Inspired by HTML5 Boilerplate.
 
 I'd love to see someone smarter then me take this over and make it awesome. I'm sure there are things I have in here that may not be best practices.
